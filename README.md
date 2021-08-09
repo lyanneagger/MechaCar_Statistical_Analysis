@@ -22,12 +22,20 @@ Summary of Linear Regression</br>
 
 ## Summary Statistics on Suspension Coils
 
-![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/2_total_summary.png)</br>
-![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/2_lot_summary.png)</br>
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Analysis for the total and each individual lot are shown below. 
+- Analysis of the data for three lots as a whole shows that the coils are within the required ranges, with a variance of 76.23.
+- Analysis of individual lots show that Lots 1 and 2 are well below the 100 PSI variance (1.15 and 10.13), which do meet the design specifications.
+- However, Lot 3 is showing a much higher variance of 220.01, which does not meet the design specifications.
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+Total Summary</br>
+![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/2_total_summary.png "Total Summary")</br>
+Lot Summary</br>
+![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/2_lot_summary.png "Lot Summary")</br>
+
 
 ## T-Tests on Suspension Coils
+
+
 
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest1.png)</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot1.png)</br>
