@@ -38,7 +38,7 @@ Lot Summary</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest1.png)</br>
 This T-Test was performed on a sample of 50 coils to determine if the PSI across all manufacturing lots is statistically different from the overall population mean of 1,500 PSI. The p-value 0.81, which is above the assumed significance level of 0.05 percent. This shows that there is not sufficient evidence to reject the null hypothesis and that the two means are statistically similar.
 
-T-Tests were also performed on each of the 3 lots to determine if the PSI for each is statistically different from the population mean of 1,500 PSI. 
+T-Tests were also performed on each of the 3 lots to determine if the PSI for each is statistically different from the population mean of 1,500 PSI. Results of each T-Test are shown below.
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot1.png)</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot2.png)</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot3.png)</br>
