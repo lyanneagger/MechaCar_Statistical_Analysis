@@ -12,13 +12,13 @@ Linear regression was performed, with all available variables in the data set: v
 - Based on their p-values, vehicle_length and ground_clearance provided non-random amounts of variance to the mpg values in the dataset.
 - The slope of the linear model is not considered to be zero, given the small p-value of 5.35e-11, which is much less than the significance level of 0.05. This gives us enough evidence to reject our null hypothesis, which means that the slope is not zero.
 - The linear model predicts the mpg of MechaCar prototypes roughly 71% effectively based on the R-squared value of 0.7149. There may also be other factors that contribute to mpg variability that were not included in the dataset.
-
+___
 Linear Regression </br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_linear_regression.png "Linear Regression")</br>
-
+___
 Summary of Linear Regression</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_summary_linear_regression.png "Summary of Linear Regression")</br>
-
+___
 
 ## Summary Statistics on Suspension Coils
 
