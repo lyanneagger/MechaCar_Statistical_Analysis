@@ -12,13 +12,13 @@ Linear regression was performed, with all available variables in the data set: v
 - Based on their p-values, vehicle_length and ground_clearance provided non-random amounts of variance to the mpg values in the dataset.
 - The slope of the linear model is not considered to be zero, given the small p-value of 5.35e-11, which is much less than the significance level of 0.05. This gives us enough evidence to reject our null hypothesis, which means that the slope is not zero.
 - The linear model predicts the mpg of MechaCar prototypes roughly 71% effectively based on the R-squared value of 0.7149. There may also be other factors that contribute to mpg variability that were not included in the dataset.
-___
+
 Linear Regression </br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_linear_regression.png "Linear Regression")</br>
-___
+
 Summary of Linear Regression</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_summary_linear_regression.png "Summary of Linear Regression")</br>
-___
+
 
 ## Summary Statistics on Suspension Coils
 
@@ -35,18 +35,26 @@ Lot Summary</br>
 
 ## T-Tests on Suspension Coils
 
-
-
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest1.png)</br>
+This T-Test was performed on a sample of 50 coils to determine if the PSI across all manufacturing lots is statistically different from the overall population mean of 1,500 PSI. The p-value 0.81, which is above the assumed significance level of 0.05 percent. This shows that there is not sufficient evidence to reject the null hypothesis and that the two means are statistically similar.
+
+T-Tests were also performed on each of the 3 lots to determine if the PSI for each is statistically different from the population mean of 1,500 PSI. 
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot1.png)</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot2.png)</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/3_ttest_lot3.png)</br>
 
+
+
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+One study that can be performed that can quantify how the MechaCar performs against the competition would compare key metrics. For this study, we would compare fuel efficiency, cost, and safety rating.
+
+The null hypothesis is that MechaCar performs similarly to competitors for fuel efficiency, cost, and safety rating.
+
+A two-sample T-Test can be performed to determine how the mean performance for MechaCar compares to the overall population including all competitors. This would determine if the means are statistically similar and show how MechaCar performs against competitors in each category.
+
+To run the statistical test, data would need to be provided from different competitor car models with the details of their fuel efficiency, cost, and safety ratings. The input data should be normally distributed and would provide greater insight if the dataset is large.
+
+
+
+
