@@ -8,15 +8,17 @@ The MechaCar, the newest prototype from AutosRUs, is experiencing production tro
 
 ## Linear Regression to Predict MPG
 
+Linear regression was performed, with all available variables in the data set: vehicle length, vehicle weight, spoiler angle, ground clearance, AWD, and mpg. The linear regression and summary are shown below. 
+- Based on their p-values, vehicle_length and ground_clearance provided non-random amounts of variance to the mpg values in the dataset.
+- The slope of the linear model is not considered to be zero, given the small p-value of 5.35e-11, which is much less than the significance level of 0.05. This gives us enough evidence to reject our null hypothesis, which means that the slope is not zero.
+- The linear model predicts the mpg of MechaCar prototypes roughly 71% effectively based on the R-squared value of 0.7149. There may also be other factors that contribute to mpg variability that were not included in the dataset.
+
 Linear Regression </br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_linear_regression.png)</br>
 
 Summary of Linear Regression</br>
 ![Alt Text](https://github.com/lyanneagger/MechaCar_Statistical_Analysis/blob/main/Resources/1_summary_linear_regression.png)</br>
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
 
